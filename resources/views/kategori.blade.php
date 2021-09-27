@@ -10,7 +10,7 @@
 
         <table border="1">
             <tr>
-          
+          testtesttest
                 <th>ID kategori bencana</th>
                 <th>KATEGORI BENCANA</th>
             </tr>
