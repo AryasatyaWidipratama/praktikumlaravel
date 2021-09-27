@@ -45,10 +45,10 @@ Route::get('/detail',[DetailController::class,'detail']);
 
 Route::get('/pelaporan',[PelaporanController::class,'pelaporan']);
 
-Route::get('/provinsi',[ProvController::class,'provinsi']);
+Route::get('/provinsi',[ProvController::class,'prov']);
 
 Route::get('/role',[RoleController::class,'role']);
 
-Route::get('/user_role',[UserRoleController::class,'user_role']);
+Route::get('/user_role',[UserRoleController::class,'usrrole']);
 
 Route::get('/users',[UsersController::class,'users']);
