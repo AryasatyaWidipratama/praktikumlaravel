@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class UserRoleController extends Controller
 {
-    public function userrole()
+    public function usrrole()
     {
         $usrol = DB::table('user_role')->get();
 
