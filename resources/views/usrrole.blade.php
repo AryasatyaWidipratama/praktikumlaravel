@@ -3,7 +3,7 @@
 
 
     <body>
-        <h3>Data Role</h3>
+        <h3>Data user Role</h3>
 
         <br/>
         <br/>
@@ -16,7 +16,7 @@
                 <th>ID ROLE</th>
             </tr>
 
-            @foreach($role as $p)
+            @foreach($user_role as $p)
             <tr>
                 <td>{{ $p->ATTRIBUTE_25 }}</td>
                 <td>{{ $p->IDUSER }}</td>
