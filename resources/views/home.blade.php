@@ -27,6 +27,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">Pendataan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About us</a>
             </ul>
           </div>
         </div>
