@@ -30,11 +30,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/c', function () {
-    return view('welcome');
+Route::get('/data', function () {
+    return view('data');
 });
 
-Route::get('/about', function () {
+Route::get('/about-us', function () {
     return view  ('about', [
         "nama" => "Kelompok 10",
         "pengantar" => "Welcome to disport"
