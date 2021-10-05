@@ -36,7 +36,7 @@ Route::get('/c', function () {
 
 Route::get('/about', function () {
     return view  ('about', [
-        "nama" => "Kelompok 14",
+        "nama" => "Kelompok 10",
         "pengantar" => "Welcome to disport"
     ]);
 });
