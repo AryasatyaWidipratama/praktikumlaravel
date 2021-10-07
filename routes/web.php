@@ -27,15 +27,18 @@ use app\Models\sosial;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',[
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/data', function () {
     return view('data');
 });
 
-Route::get('/about-us', function () {
+Route::get('/about', function () {
     return view  ('about', [
+        "title" => "About"
         "nama" => "Kelompok 10",
         "pengantar" => "Welcome to disport"
     ]);
