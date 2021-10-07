@@ -38,9 +38,7 @@ Route::get('/data', function () {
 
 Route::get('/about', function () {
     return view  ('about', [
-        "title" => "About"
-        "nama" => "Kelompok 10",
-        "pengantar" => "Welcome to disport"
+        "title" => "Tentang"
     ]);
 });
 
