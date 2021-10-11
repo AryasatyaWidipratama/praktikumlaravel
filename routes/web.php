@@ -28,7 +28,7 @@ use app\Models\sosial;
 
 Route::get('/', function () {
     return view('home',[
-        "title" => "Home"
+        "title" => "Beranda"
     ]);
 });
 
